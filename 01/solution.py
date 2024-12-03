@@ -10,7 +10,7 @@ distances = [abs(l - r) for l, r in zip(sorted(left), sorted(right))]
 total_distance = sum(distances)
 print(total_distance)
 
-# second distance
+# second star
 lookup = {}
 for r in sorted(right):
     if r in lookup:
